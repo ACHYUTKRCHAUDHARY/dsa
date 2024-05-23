@@ -11,13 +11,11 @@ class Solution{
     // X: element to be searched for
     int search(int arr[], int N, int X)
     {
+        
         // Your code here
-        // N-number of elements
-        // x-searched elements
         for(int i=0;i<N;i++){
-            if(arr[i]==X){
-                return i;
-            }
+            if(arr[i]==X)
+            return i;
         }
         return -1;
         
